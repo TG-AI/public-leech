@@ -24,15 +24,15 @@ class Commandi:
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge"
+        "purge@LuciferbyAI_bot"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@LuciferbyAI_bot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status"
+        "status@LuciferbyAI_bot"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
@@ -48,23 +48,23 @@ class Commandi:
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename"
+        "rename@LuciferbyAI_bot"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload"
+        "upload@LuciferbyAI_bot"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "help@LuciferbyAI_bot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "savethumbnail@LuciferbyAI_bot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "clearthumbnail@LuciferbyAI_bot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
