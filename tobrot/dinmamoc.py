@@ -20,7 +20,7 @@ from tobrot.get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "leech@LuciferbyAI_bot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
