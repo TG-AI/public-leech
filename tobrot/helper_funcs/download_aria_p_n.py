@@ -311,7 +311,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                     pass
                 #
                 msg = f"\nDownloading File: <code>{downloading_dir_name}</code>"
-                msg += f"\nSpeed: {file.download_speed_string()} 🔽 / {file.upload_speed_string()} 🔼"
+                msg += f"\nSpeed: {file.download_speed_string()} ⬇️ / {file.upload_speed_string()} ⬆️"
                 msg += f"\nProgress: {file.progress_string()}"
                 msg += f"\nTotal Size: {file.total_length_string()}"
                 msg += f"\n<b>Info:</b>| P: {file.connections} |"
