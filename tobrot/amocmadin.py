@@ -20,7 +20,7 @@ from tobrot.get_cfg import get_config
 class Loilacaztion:
     PROCESSING = get_config(
         "STRINGS_PROCESSING",
-        "processing ..."
+        "<b>processing ...</b>\n\nplease wait"
     )
 
     CLEARED_THUMBNAIL = get_config(
@@ -41,7 +41,7 @@ class Loilacaztion:
 
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "please read the <a href='https://t.me/TorrentleechbyAI/277</a>"
+        "please read the [Pinned Message](https://t.me/TorrentleechbyAI/277)"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
