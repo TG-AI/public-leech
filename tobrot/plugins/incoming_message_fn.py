@@ -87,7 +87,7 @@ async def leech_commandi_f(client, message):
         if not os.path.isdir(new_download_location):
             os.makedirs(new_download_location)
         if "_" in m_sgra:
-            await m_.edit_text("trying to download")
+            await m_.edit_text("trying to download\n\nplease wait")
             # try to download the "link"
             sagtus, err_message = await fake_etairporpa_call(
                 aria_i_p,
@@ -105,7 +105,7 @@ async def leech_commandi_f(client, message):
             is_zip = False
             if "a" in m_sgra:
                 is_zip = True
-            await m_.edit_text("trying to download")
+            await m_.edit_text("trying to download\n\nplease wait")
             # try to download the "link"
             sagtus, err_message = await call_apropriate_function(
                 aria_i_p,
@@ -169,6 +169,6 @@ async def incoming_youtube_dl_f(client, message):
             )
     else:
         await i_m_sefg.edit_text(
-            "**FCUK**! wat have you entered. \nPlease read /help \n"
+            "**WtF**! wat have you entered. \nPlease read /help \n"
             f"<b>API Error</b>: {cf_name}"
         )
