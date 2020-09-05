@@ -41,7 +41,7 @@ class Loilacaztion:
 
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "please read the <a href='https://t.me/c/{channel_id}/{message_id}'>Pinned Message</a>\n or use /help"
+        "please read the <a href='https://t.me/TorrentleechbyAI/277'>Pinned Message</a>\n or use /help"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
