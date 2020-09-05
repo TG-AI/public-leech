@@ -25,7 +25,7 @@ class Loilacaztion:
 
     CLEARED_THUMBNAIL = get_config(
         "STRINGS_CLEARED_THUMBNAIL",
-        "✅ Custom thumbnail cleared succesfully."
+        "✔️ Custom thumbnail cleared succesfully."
     )
     HELP_SAVE_THUMBNAIL = get_config(
         "STRINGS_HELP_SAVE_THUMBNAIL",
@@ -35,13 +35,13 @@ class Loilacaztion:
         "STRINGS_SAVED_THUMBNAIL",
         (
             "Custom video / file thumbnail saved. "
-            "This image will be used in the upload, till /clearthumbnail."
+            "This image will be used in the upload, till /clearthumbnail@LuciferbyAI_bot."
         )
     )
 
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "please read the <a href='https://t.me/c/1434259219/99'>Pinned Message</a>"
+        "please read the <a href='https://t.me/TorrentleechbyAI/277</a>"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
@@ -50,13 +50,13 @@ class Loilacaztion:
 
     NO_TOR_STATUS = get_config(
         "STRINGS_NO_TOR_STATUS",
-        "🤷‍♂️ No Active, Queued or Paused TORRENTs"
+        "🤷‍♂️ No Active, Queued or Paused TORRENTs \n\nI'm free now🥴"
     )
     TOR_CANCELLED = get_config(
         "STRINGS_TOR_CANCELLED",
-        "Leech Cancelled"
+        "Leech Cancelled\n\m😓"
     )
     TOR_CANCEL_FAILED = get_config(
         "STRINGS_TOR_CANCEL_FAILED",
-        "<i>FAILED</i>\n\n#error"
+        "<i>FAILED</i>\n\n😱\n\n#error"
     )
