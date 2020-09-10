@@ -54,7 +54,7 @@ class Loilacaztion:
     )
     TOR_CANCELLED = get_config(
         "STRINGS_TOR_CANCELLED",
-        "Leech Cancelled\n\m😓"
+        "Leech Cancelled\n😓"
     )
     TOR_CANCEL_FAILED = get_config(
         "STRINGS_TOR_CANCEL_FAILED",
